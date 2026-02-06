@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ulfa - Portofolio Mahasiswi Teknik Informatika</title>
+    <meta name="description" content="Portofolio resmi Ulfa, Mahasiswi Teknik Informatika Universitas Indonesia Timur.">
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Ulfa.</a>
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Beranda</a></li>
+                <li><a href="about.html">Tentang</a></li>
+                <li><a href="portfolio.html">Portofolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="section hero">
+        <div class="container">
+            <div style="display: flex; align-items: center; gap: 4rem; flex-wrap: wrap;">
+                <div style="flex: 1; min-width: 300px;">
+                    <p class="text-accent mb-2" style="font-weight: 600; letter-spacing: 0.05em;">HALO, SAYA ULFA</p>
+                    <h1>Mahasiswi Teknik Informatika</h1>
+                    <p class="mb-4" style="font-size: 1.125rem; color: var(--text-color); max-width: 500px;">
+                        Membangun solusi digital yang kreatif dan fungsional.
+                        Fakultas Ilmu Komputer, Universitas Indonesia Timur.
+                    </p>
+                    <div style="display: flex; gap: 1rem;">
+                        <a href="portfolio.html" class="btn btn-primary">Lihat Portofolio</a>
+                        <a href="contact.html" class="btn btn-outline">Hubungi Saya</a>
+                    </div>
+                </div>
+                <!-- Hero Image Placeholder using FontAwesome for now if no image provided -->
+                <div style="flex: 1; min-width: 300px; display: flex; justify-content: center;">
+                    <div
+                        style="width: 350px; height: 350px; background-color: var(--accent-light); border-radius: 50%; display: flex; align-items: center; justify-content: center; overflow: hidden; position: relative;">
+                        <!-- You can replace this with an actual image later -->
+                        <i class="fas fa-user-graduate"
+                            style="font-size: 150px; color: var(--primary-color); opacity: 0.8;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Summary -->
+    <section class="section" style="background-color: white;">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="mb-2">Keahlian Saya</h2>
+                <p>Tools dan teknologi yang saya pelajari</p>
+            </div>
+
+            <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin-top: 2rem;">
+                <!-- Skill Cards -->
+                <div class="skill-card"
+                    style="padding: 1.5rem; border: 1px solid #e5e7eb; border-radius: var(--radius-md); width: 150px; text-align: center;">
+                    <i class="fab fa-html5" style="font-size: 3rem; color: #e34f26; margin-bottom: 1rem;"></i>
+                    <h3>HTML</h3>
+                </div>
+                <div class="skill-card"
+                    style="padding: 1.5rem; border: 1px solid #e5e7eb; border-radius: var(--radius-md); width: 150px; text-align: center;">
+                    <i class="fab fa-css3-alt" style="font-size: 3rem; color: #264de4; margin-bottom: 1rem;"></i>
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill-card"
+                    style="padding: 1.5rem; border: 1px solid #e5e7eb; border-radius: var(--radius-md); width: 150px; text-align: center;">
+                    <i class="fab fa-js" style="font-size: 3rem; color: #f7df1e; margin-bottom: 1rem;"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-card"
+                    style="padding: 1.5rem; border: 1px solid #e5e7eb; border-radius: var(--radius-md); width: 150px; text-align: center;">
+                    <i class="fab fa-php" style="font-size: 3rem; color: #777bb4; margin-bottom: 1rem;"></i>
+                    <h3>PHP</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Preview -->
+    <section class="section" style="background-color: var(--bg-color);">
+        <div class="container">
+            <div style="display: flex; justify-content: space-between; align-items: end; margin-bottom: 2rem;">
+                <div>
+                    <h2 class="mb-2">Portofolio Terbaru</h2>
+                    <p>Beberapa projek yang telah saya kerjakan</p>
+                </div>
+                <a href="portfolio.html" class="text-accent" style="font-weight: 600;">Lihat Semua <i
+                        class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                <!-- Project Card 1 -->
+                <div
+                    style="background: white; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-sm); transition: transform 0.2s ease;">
+                    <div
+                        style="height: 200px; background-color: #ddd; display: flex; align-items: center; justify-content: center;">
+                        <i class="fas fa-image" style="font-size: 3rem; color: #9ca3af;"></i>
+                    </div>
+                    <div style="padding: 1.5rem;">
+                        <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">Website Tugas Kuliah</h3>
+                        <p style="color: var(--text-color); font-size: 0.9rem; margin-bottom: 1rem;">Website statis
+                            menggunakan HTML & CSS untuk mata kuliah Pemrograman Web.</p>
+                        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                            <span
+                                style="font-size: 0.8rem; background: var(--accent-light); color: var(--primary-color); padding: 0.25rem 0.75rem; border-radius: 99px;">HTML</span>
+                            <span
+                                style="font-size: 0.8rem; background: var(--accent-light); color: var(--primary-color); padding: 0.25rem 0.75rem; border-radius: 99px;">CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div
+                    style="background: white; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-sm); transition: transform 0.2s ease;">
+                    <div
+                        style="height: 200px; background-color: #ddd; display: flex; align-items: center; justify-content: center;">
+                        <i class="fas fa-image" style="font-size: 3rem; color: #9ca3af;"></i>
+                    </div>
+                    <div style="padding: 1.5rem;">
+                        <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">Aplikasi CRUD Sederhana</h3>
+                        <p style="color: var(--text-color); font-size: 0.9rem; margin-bottom: 1rem;">Sistem manajemen
+                            data mahasiswa sederhana dengan PHP dan MySQL.</p>
+                        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                            <span
+                                style="font-size: 0.8rem; background: var(--accent-light); color: var(--primary-color); padding: 0.25rem 0.75rem; border-radius: 99px;">PHP</span>
+                            <span
+                                style="font-size: 0.8rem; background: var(--accent-light); color: var(--primary-color); padding: 0.25rem 0.75rem; border-radius: 99px;">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div
+                    style="background: white; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-sm); transition: transform 0.2s ease;">
+                    <div
+                        style="height: 200px; background-color: #ddd; display: flex; align-items: center; justify-content: center;">
+                        <i class="fas fa-image" style="font-size: 3rem; color: #9ca3af;"></i>
+                    </div>
+                    <div style="padding: 1.5rem;">
+                        <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem;">UI Design Redesign</h3>
+                        <p style="color: var(--text-color); font-size: 0.9rem; margin-bottom: 1rem;">Konsep redesign
+                            aplikasi mobile banking dengan tampilan modern.</p>
+                        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                            <span
+                                style="font-size: 0.8rem; background: var(--accent-light); color: var(--primary-color); padding: 0.25rem 0.75rem; border-radius: 99px;">Figma</span>
+                            <span
+                                style="font-size: 0.8rem; background: var(--accent-light); color: var(--primary-color); padding: 0.25rem 0.75rem; border-radius: 99px;">UI/UX</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Preview -->
+    <section class="section" style="background-color: white;">
+        <div class="container">
+            <div style="display: flex; justify-content: space-between; align-items: end; margin-bottom: 2rem;">
+                <div>
+                    <h2 class="mb-2">Tulisan Terbaru</h2>
+                    <p>Berbagi pengetahuan seputar teknologi</p>
+                </div>
+                <a href="blog.html" class="text-accent" style="font-weight: 600;">Baca Lainnya <i
+                        class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                <!-- Blog Item 1 -->
+                <article style="border-left: 4px solid var(--primary-color); padding-left: 1.5rem;">
+                    <span style="font-size: 0.875rem; color: #6b7280;">12 Oktober 2025</span>
+                    <h3 style="font-size: 1.25rem; margin: 0.5rem 0;">Belajar HTML Dasar untuk Pemula</h3>
+                    <p style="color: var(--text-color); font-size: 0.9rem; margin-bottom: 1rem;">Panduan lengkap memulai
+                        belajar HTML dari nol hingga membuat halaman sederhana.</p>
+                    <a href="#" style="font-weight: 600; font-size: 0.9rem; color: var(--primary-color);">Baca
+                        Selengkapnya</a>
+                </article>
+
+                <!-- Blog Item 2 -->
+                <article style="border-left: 4px solid var(--primary-color); padding-left: 1.5rem;">
+                    <span style="font-size: 0.875rem; color: #6b7280;">25 September 2025</span>
+                    <h3 style="font-size: 1.25rem; margin: 0.5rem 0;">Pengenalan Git dan GitHub</h3>
+                    <p style="color: var(--text-color); font-size: 0.9rem; margin-bottom: 1rem;">Mengapa version control
+                        system penting bagi mahasiswa informatika?</p>
+                    <a href="#" style="font-weight: 600; font-size: 0.9rem; color: var(--primary-color);">Baca
+                        Selengkapnya</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background-color: var(--secondary-color); color: white; padding: 2rem 0; text-align: center;">
+        <div class="container">
+            <p>&copy; 2026 Ulfa. Hak Cipta Dilindungi.</p>
+            <div style="margin-top: 1rem; display: flex; justify-content: center; gap: 1rem;">
+                <a href="#" style="color: white; font-size: 1.25rem;"><i class="fab fa-instagram"></i></a>
+                <a href="#" style="color: white; font-size: 1.25rem;"><i class="fab fa-linkedin"></i></a>
+                <a href="#" style="color: white; font-size: 1.25rem;"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
